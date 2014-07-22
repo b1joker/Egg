@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33135924197DFA9400C2BB06 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 33135923197DFA9400C2BB06 /* GameOver.png */; };
+		33135926197E3F6F00C2BB06 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33135925197E3F6F00C2BB06 /* sound.mp3 */; };
+		33135928197E3FC300C2BB06 /* correctSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33135927197E3FC300C2BB06 /* correctSound.wav */; };
+		3313592A197E3FD300C2BB06 /* wrongSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33135929197E3FD300C2BB06 /* wrongSound.mp3 */; };
+		3313592C197E400E00C2BB06 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3313592B197E400E00C2BB06 /* AudioToolbox.framework */; };
+		3313592E197E478C00C2BB06 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3313592D197E478C00C2BB06 /* background.png */; };
 		33AC40F9197CA10400A41657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40F8197CA10400A41657 /* Foundation.framework */; };
 		33AC40FB197CA10400A41657 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40FA197CA10400A41657 /* CoreGraphics.framework */; };
 		33AC40FD197CA10400A41657 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40FC197CA10400A41657 /* UIKit.framework */; };
 		33AC4103197CA10400A41657 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33AC4101197CA10400A41657 /* InfoPlist.strings */; };
 		33AC4105197CA10400A41657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC4104197CA10400A41657 /* main.m */; };
 		33AC4109197CA10400A41657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC4108197CA10400A41657 /* AppDelegate.m */; };
-		33AC410C197CA10400A41657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AC410A197CA10400A41657 /* Main.storyboard */; };
 		33AC410F197CA10400A41657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC410E197CA10400A41657 /* ViewController.m */; };
 		33AC4111197CA10400A41657 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AC4110197CA10400A41657 /* Images.xcassets */; };
 		33AC4118197CA10400A41657 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC4117197CA10400A41657 /* XCTest.framework */; };
@@ -21,6 +26,12 @@
 		33AC411A197CA10400A41657 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40FC197CA10400A41657 /* UIKit.framework */; };
 		33AC4122197CA10400A41657 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33AC4120197CA10400A41657 /* InfoPlist.strings */; };
 		33AC4124197CA10400A41657 /* EggTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC4123197CA10400A41657 /* EggTests.m */; };
+		33AC4131197CA2A100A41657 /* eggA.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AC412E197CA2A100A41657 /* eggA.png */; };
+		33AC4132197CA2A100A41657 /* eggB.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AC412F197CA2A100A41657 /* eggB.png */; };
+		33AC413E197CB20100A41657 /* basketEgg.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AC413D197CB20100A41657 /* basketEgg.png */; };
+		33AC4140197CB39C00A41657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AC413F197CB39C00A41657 /* Main.storyboard */; };
+		33AC4144197D31D000A41657 /* xxx.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AC4143197D31D000A41657 /* xxx.png */; };
+		33AC4146197D7F3400A41657 /* breakEgg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AC4145197D7F3400A41657 /* breakEgg2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33135923197DFA9400C2BB06 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
+		33135925197E3F6F00C2BB06 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		33135927197E3FC300C2BB06 /* correctSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correctSound.wav; sourceTree = "<group>"; };
+		33135929197E3FD300C2BB06 /* wrongSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongSound.mp3; sourceTree = "<group>"; };
+		3313592B197E400E00C2BB06 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3313592D197E478C00C2BB06 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		33AC40F5197CA10400A41657 /* Egg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Egg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC40F8197CA10400A41657 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33AC40FA197CA10400A41657 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +61,6 @@
 		33AC4106197CA10400A41657 /* Egg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Egg-Prefix.pch"; sourceTree = "<group>"; };
 		33AC4107197CA10400A41657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33AC4108197CA10400A41657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33AC410B197CA10400A41657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33AC410D197CA10400A41657 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		33AC410E197CA10400A41657 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		33AC4110197CA10400A41657 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +69,12 @@
 		33AC411F197CA10400A41657 /* EggTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggTests-Info.plist"; sourceTree = "<group>"; };
 		33AC4121197CA10400A41657 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33AC4123197CA10400A41657 /* EggTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggTests.m; sourceTree = "<group>"; };
+		33AC412E197CA2A100A41657 /* eggA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggA.png; sourceTree = "<group>"; };
+		33AC412F197CA2A100A41657 /* eggB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggB.png; sourceTree = "<group>"; };
+		33AC413D197CB20100A41657 /* basketEgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketEgg.png; sourceTree = "<group>"; };
+		33AC413F197CB39C00A41657 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		33AC4143197D31D000A41657 /* xxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xxx.png; sourceTree = "<group>"; };
+		33AC4145197D7F3400A41657 /* breakEgg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breakEgg2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3313592C197E400E00C2BB06 /* AudioToolbox.framework in Frameworks */,
 				33AC40FB197CA10400A41657 /* CoreGraphics.framework in Frameworks */,
 				33AC40FD197CA10400A41657 /* UIKit.framework in Frameworks */,
 				33AC40F9197CA10400A41657 /* Foundation.framework in Frameworks */,
@@ -101,6 +124,7 @@
 		33AC40F7197CA10400A41657 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3313592B197E400E00C2BB06 /* AudioToolbox.framework */,
 				33AC40F8197CA10400A41657 /* Foundation.framework */,
 				33AC40FA197CA10400A41657 /* CoreGraphics.framework */,
 				33AC40FC197CA10400A41657 /* UIKit.framework */,
@@ -112,9 +136,19 @@
 		33AC40FE197CA10400A41657 /* Egg */ = {
 			isa = PBXGroup;
 			children = (
+				33135927197E3FC300C2BB06 /* correctSound.wav */,
+				3313592D197E478C00C2BB06 /* background.png */,
+				33135929197E3FD300C2BB06 /* wrongSound.mp3 */,
+				33135925197E3F6F00C2BB06 /* sound.mp3 */,
+				33AC4143197D31D000A41657 /* xxx.png */,
+				33AC4145197D7F3400A41657 /* breakEgg2.png */,
+				33135923197DFA9400C2BB06 /* GameOver.png */,
+				33AC412E197CA2A100A41657 /* eggA.png */,
+				33AC413D197CB20100A41657 /* basketEgg.png */,
+				33AC413F197CB39C00A41657 /* Main.storyboard */,
+				33AC412F197CA2A100A41657 /* eggB.png */,
 				33AC4107197CA10400A41657 /* AppDelegate.h */,
 				33AC4108197CA10400A41657 /* AppDelegate.m */,
-				33AC410A197CA10400A41657 /* Main.storyboard */,
 				33AC410D197CA10400A41657 /* ViewController.h */,
 				33AC410E197CA10400A41657 /* ViewController.m */,
 				33AC4110197CA10400A41657 /* Images.xcassets */,
@@ -229,8 +263,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				33AC4111197CA10400A41657 /* Images.xcassets in Resources */,
+				33AC4146197D7F3400A41657 /* breakEgg2.png in Resources */,
+				3313592E197E478C00C2BB06 /* background.png in Resources */,
+				33135926197E3F6F00C2BB06 /* sound.mp3 in Resources */,
+				33AC4131197CA2A100A41657 /* eggA.png in Resources */,
+				33135928197E3FC300C2BB06 /* correctSound.wav in Resources */,
+				33AC4144197D31D000A41657 /* xxx.png in Resources */,
+				3313592A197E3FD300C2BB06 /* wrongSound.mp3 in Resources */,
+				33135924197DFA9400C2BB06 /* GameOver.png in Resources */,
+				33AC4132197CA2A100A41657 /* eggB.png in Resources */,
+				33AC4140197CB39C00A41657 /* Main.storyboard in Resources */,
 				33AC4103197CA10400A41657 /* InfoPlist.strings in Resources */,
-				33AC410C197CA10400A41657 /* Main.storyboard in Resources */,
+				33AC413E197CB20100A41657 /* basketEgg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +324,6 @@
 				33AC4102197CA10400A41657 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		33AC410A197CA10400A41657 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33AC410B197CA10400A41657 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		33AC4120197CA10400A41657 /* InfoPlist.strings */ = {
@@ -456,6 +492,7 @@
 				33AC4129197CA10400A41657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33AC412A197CA10400A41657 /* Build configuration list for PBXNativeTarget "EggTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				33AC412C197CA10400A41657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

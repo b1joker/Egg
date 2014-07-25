@@ -16,15 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="tCo-yP-D17">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eggBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="tCo-yP-D17">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="576"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fge-by-ih9">
-                                <rect key="frame" x="60" y="247" width="200" height="96"/>
+                                <rect key="frame" x="120" y="244" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="43"/>
-                                <state key="normal" title="Start">
+                                <state key="normal" image="startIcon2.png">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -130,9 +130,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background.png" width="495" height="475"/>
         <image name="basketEgg.png" width="225" height="129"/>
         <image name="eggA.png" width="256" height="256"/>
+        <image name="eggBackground.png" width="640" height="960"/>
+        <image name="startIcon2.png" width="256" height="256"/>
         <image name="xxx.png" width="600" height="420"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

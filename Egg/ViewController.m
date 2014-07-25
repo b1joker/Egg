@@ -179,7 +179,7 @@
 -(void) startTimer1
 {
 
-    if(countTime >= 258)
+    if(countTime >= 258) //  rơi xuống đất
     {
         countTime = 0;
         
@@ -204,7 +204,7 @@
     _photo.center = CGPointMake(x, y);
 
     
- if((_photo.center.x + (_photo.bounds.size.width)/2  <= [piece center].x + (self.basketEgg.bounds.size.width)/2) && (_photo.center.x + (_photo.bounds.size.width)/2  >= [piece center].x - (self.basketEgg.bounds.size.width)/2)  && _photo.center.y + (_photo.bounds.size.height)/2 == self.basketEgg.center.y - (self.basketEgg.bounds.size.height) /2 )
+ if((_photo.center.x + (_photo.bounds.size.width)/2  <= [piece center].x + (self.basketEgg.bounds.size.width)/2) && (_photo.center.x + (_photo.bounds.size.width)/2  >= [piece center].x - (self.basketEgg.bounds.size.width)/2)  && _photo.center.y + (_photo.bounds.size.height)/2 == self.basketEgg.center.y - (self.basketEgg.bounds.size.height) /2 ) // hứng trúng
     {
         if([_photo.image isEqual: [UIImage imageNamed:@"eggA.png"]])
             [self isCorrect];

@@ -13,6 +13,9 @@
 		3313592A197E3FD300C2BB06 /* wrongSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33135929197E3FD300C2BB06 /* wrongSound.mp3 */; };
 		3313592C197E400E00C2BB06 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3313592B197E400E00C2BB06 /* AudioToolbox.framework */; };
 		3313592E197E478C00C2BB06 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3313592D197E478C00C2BB06 /* background.png */; };
+		336AD027198201E7009C5C7F /* startIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 336AD026198201E7009C5C7F /* startIcon1.png */; };
+		336AD02919820512009C5C7F /* eggBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 336AD02819820512009C5C7F /* eggBackground.png */; };
+		336AD02B1982053D009C5C7F /* startIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 336AD02A1982053D009C5C7F /* startIcon2.png */; };
 		33AC40F9197CA10400A41657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40F8197CA10400A41657 /* Foundation.framework */; };
 		33AC40FB197CA10400A41657 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40FA197CA10400A41657 /* CoreGraphics.framework */; };
 		33AC40FD197CA10400A41657 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC40FC197CA10400A41657 /* UIKit.framework */; };
@@ -51,6 +54,9 @@
 		33135929197E3FD300C2BB06 /* wrongSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongSound.mp3; sourceTree = "<group>"; };
 		3313592B197E400E00C2BB06 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3313592D197E478C00C2BB06 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		336AD026198201E7009C5C7F /* startIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startIcon1.png; sourceTree = "<group>"; };
+		336AD02819820512009C5C7F /* eggBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggBackground.png; sourceTree = "<group>"; };
+		336AD02A1982053D009C5C7F /* startIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startIcon2.png; sourceTree = "<group>"; };
 		33AC40F5197CA10400A41657 /* Egg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Egg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC40F8197CA10400A41657 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33AC40FA197CA10400A41657 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -136,7 +142,10 @@
 		33AC40FE197CA10400A41657 /* Egg */ = {
 			isa = PBXGroup;
 			children = (
+				336AD02819820512009C5C7F /* eggBackground.png */,
 				33135927197E3FC300C2BB06 /* correctSound.wav */,
+				336AD02A1982053D009C5C7F /* startIcon2.png */,
+				336AD026198201E7009C5C7F /* startIcon1.png */,
 				3313592D197E478C00C2BB06 /* background.png */,
 				33135929197E3FD300C2BB06 /* wrongSound.mp3 */,
 				33135925197E3F6F00C2BB06 /* sound.mp3 */,
@@ -265,11 +274,14 @@
 				33AC4111197CA10400A41657 /* Images.xcassets in Resources */,
 				33AC4146197D7F3400A41657 /* breakEgg2.png in Resources */,
 				3313592E197E478C00C2BB06 /* background.png in Resources */,
+				336AD02919820512009C5C7F /* eggBackground.png in Resources */,
 				33135926197E3F6F00C2BB06 /* sound.mp3 in Resources */,
 				33AC4131197CA2A100A41657 /* eggA.png in Resources */,
 				33135928197E3FC300C2BB06 /* correctSound.wav in Resources */,
 				33AC4144197D31D000A41657 /* xxx.png in Resources */,
+				336AD027198201E7009C5C7F /* startIcon1.png in Resources */,
 				3313592A197E3FD300C2BB06 /* wrongSound.mp3 in Resources */,
+				336AD02B1982053D009C5C7F /* startIcon2.png in Resources */,
 				33135924197DFA9400C2BB06 /* GameOver.png in Resources */,
 				33AC4132197CA2A100A41657 /* eggB.png in Resources */,
 				33AC4140197CB39C00A41657 /* Main.storyboard in Resources */,
